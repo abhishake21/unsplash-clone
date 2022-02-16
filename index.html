@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,65 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>Unsplash Website layout Example - Reload the page for new images.</h1>
+    <header>
+        <img class="logo" src="Images/logo.png" />
+        <input class="header-search" type="search" name="search" id="search"
+            placeholder="Search free high-resolution photos">
+
+        <a class="exp-adv-blg" href="">Explore</a>
+        <a class="exp-adv-blg" href="">Advertise</a>
+        <a class="exp-adv-blg" href="">Blog</a>
+
+        <img class="line" src="Images/line.png" / alt="divider">
+
+        <a href="">Log in</a>
+        <input class="button" type="button" value="Submit a photo">
+        <img src="https://img.icons8.com/material-outlined/24/000000/menu--v1.png" />
+    </header>
+
+    <nav class="categories">
+        <a href="https://unsplash.com/" target="_blank">Editorial</a>
+        <img class="line" src="Images/line.png" alt="divider">
+        <a href="https://unsplash.com/t/entrepreneur" target="_blank">Entrepreneur</a>
+        <a href="https://unsplash.com/t/wallpapers" target="_blank">Wallpapers</a>
+        <a href="https://unsplash.com/t/3d-renders" target="_blank">3D Renders</a>
+        <a href="https://unsplash.com/t/textures-patterns" target="_blank">Textures and Patterns</a>
+        <a href="https://unsplash.com/t/architecture" target="_blank">Architecture</a>
+        <a href="https://unsplash.com/t/experimental" target="_blank">Experimental</a>
+        <a href="https://unsplash.com/t/nature" target="_blank">Nature</a>
+        <a href="https://unsplash.com/t/business-work" target="_blank">Business & Work</a>
+        <a href="https://unsplash.com/t/athletics" target="_blank">Athletics</a>
+        <a href="https://unsplash.com/t/film" target="_blank">Film</a>
+        <a href="https://unsplash.com/t/animals" target="_blank">Animals</a>
+        <a href="https://unsplash.com/t/travel" target="_blank">Travel</a>
+        <a href="https://unsplash.com/t/history" target="_blank">History</a>
+    </nav>
+
+    <div class="main-div">
+        <div class="inside-div">
+            <h1>Unsplash</h1>
+            <p>The internet's source of <a href="https://unsplash.com/license" target="_blank">freely-usable
+                    images</a><br>
+                Powered by creators everywhere.
+            </p>
+            <input class="div-search" type="search" name="search" id="search"
+                placeholder="Search free high-resolution photos">
+            <div class="trending">
+                Trending -
+                <a href="https://source.unsplash.com/random?jungle" target="_blank">Jungle</a>
+                <a href="https://source.unsplash.com/random?nature" target="_blank">nature</a>
+                <a href="https://source.unsplash.com/random?backgrounds" target="_blank">backgrounds</a>
+            </div>
+        </div>
+    </div>
+
 
     <div class="images-container">
         <div class="image-div">
-            <img src="https://source.unsplash.com/random?jungle" alt="wallpaper">
+            <a href=""><img src="https://source.unsplash.com/random?jungle" alt="wallpaper"></a>
             <img src="https://source.unsplash.com/random?soccer" alt="wallpaper">
             <img src="https://source.unsplash.com/random?coffee" alt="wallpaper">
             <img src="https://source.unsplash.com/random?iceland" alt="wallpaper">
@@ -25,7 +78,7 @@
             <img src="https://source.unsplash.com/random?library" alt="wallpaper">
             <img src="https://source.unsplash.com/random?concert" alt="wallpaper">
         </div>
-        
+
         <div class="image-div">
             <img src="https://source.unsplash.com/random?volcano" alt="wallpaper">
             <img src="https://source.unsplash.com/random?night" alt="wallpaper">
@@ -38,21 +91,28 @@
             <img src="https://source.unsplash.com/random?tower" alt="wallpaper">
             <img src="https://source.unsplash.com/random?moon" alt="wallpaper">
         </div>
-        
+
         <div class="image-div">
             <img src="https://source.unsplash.com/random?tiger" alt="wallpaper">
             <img src="https://source.unsplash.com/random?building" alt="wallpaper">
             <img src="https://source.unsplash.com/random?dog" alt="wallpaper">
             <img src="https://source.unsplash.com/random?coding" alt="wallpaper">
             <img src="https://source.unsplash.com/random?grass" alt="wallpaper">
-            <img src="https://source.unsplash.com/random?work" alt="wallpaper">
+            <img src="https://source.unsplash.com/random?books" alt="wallpaper">
             <img src="https://source.unsplash.com/random?sea" alt="wallpaper">
             <img src="https://source.unsplash.com/random?history" alt="wallpaper">
             <img src="https://source.unsplash.com/random?snake" alt="wallpaper">
             <img src="https://source.unsplash.com/random?rock" alt="wallpaper">
         </div>
-        
+
     </div>
-    
+
+    <footer>
+        <div>
+            All icons and logos provided by - <a target="_blank" href="https://icons8.com">Icons8</a>
+        </div>
+    </footer>
+
 </body>
+
 </html>
